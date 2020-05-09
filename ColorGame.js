@@ -48,7 +48,7 @@
     	{
 	     squares[i].addEventListener("click", function() {
 	 
-	      var clickedColor=this.style.background;
+	      var clickedColor=this.style.backgroundColor;
 	  
 	     if(clickedColor===pickedColor) {
 		  messageDisplay.textContent="Correct!!!";
@@ -86,7 +86,7 @@
 			if(colors[i])
 			{	
              squares[i].style.display="block";		
-		   squares[i].style.background=colors[i];
+		   squares[i].style.backgroundColor=colors[i];
 			}  else
 			{
 			squares[i].style.display="none";
